@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDFDF;
+}
+html{
+  background-image:url("https://img.freepik.com/free-photo/high-angle-uncompleted-voting-questionnaire_23-2148265549.jpg?w=2000");
+}
+h1,p{
+  text-align:center;
+  font-family:monospace;
+  font-weight:bold;
+}
+h1{
+  font-size:30px;
+  text-decoration-line:underline;
+}
+form{
+  padding:10px;
+  background-color:#77777788;
+  margin-top:60;
+  margin-bottom:30;
+  margin-left:auto;
+  margin-right:auto;
+  width:0vw;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+input,textarea{
+  width:21em;
+  margin-left:0.7em;
+  margin-right:0.7em;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+input[type="radio"],input[type="checkbox"]{
+width:auto;
+}
+input[type="submit"]{
+ width:21em;
+  margin: 0.7em 0.7em;
+  height: 2em;
+  background-color: white;
+}
+label
+{
+  color:rgb(00,00,00);
+  font-style:calibri;
+  width:21em;
+   margin-left:0.7em;
+  margin-right:0.7em;
+  margin-top:1.7em;
+  margin-bottom:auto;
+}
+submit{
+  margin: 0.7em 0.7em;
+}

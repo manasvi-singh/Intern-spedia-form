@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Form</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='form.css'>
+  <script src='form.js'></script>
+</head>
+<body>
+  <div id="error"></div>
+<form id="form" action="/" method="GET">
+  <div>
+    <label for="name" >Enter your name:
+    <input id="name" type="text" placeholder="Name"required/></label>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password">
+  </div>
+  
+  <div>
+    <label id="email-label"> Enter the email: 
+    <input id="email" type="email" placeholder="email" required></label>
+  </div>
+  <div>
+    <label id="number-label">Enter the number: <input id="number" type="number" placeholder="Phone Number" required min="10" max="12"></label>
+  </div>
+  <label>
+    Gender: 
+      <select id="dropdown"><option value="">Select One</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="3">Other</option>
+      </select></label><br>
+      <label>
+      <input type="radio" name="feild interst" value="1"/> Internet Of things</label><br>
+      <label>
+      <input type="radio" value="2" name="feild interst"> Web Developement</label><br>
+     <label for="terms-and-conditions" name="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="3" /> I accept the terms and conditions
+      </label><br>
+     <label for="Privacy Policy" name="Privacy Policy">
+        <input id="Privacy Policy" type="checkbox" required name="Privacy Policy" value="4" /> I accept the Privacy Policy
+      </label><br>
+     <label for="Comments">Comment:<br>
+        <textarea id="Comments" name="Comments" rows="3" cols="30" placeholder="Enter your text here.."></textarea>
+      </label><br>
+     
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+
+
